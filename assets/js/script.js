@@ -27,8 +27,6 @@ function convertValue() {
         style: 'currency',
         currency: 'BRL'
     }).format(inputValue)
-
-    console.log(inputValue)
 }
 
 function changeCurrency() {
