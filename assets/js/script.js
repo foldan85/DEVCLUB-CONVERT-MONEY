@@ -96,7 +96,7 @@ function convertValue() {
         currencyValue.innerHTML = new Intl.NumberFormat('en-UK', {
             style: 'currency',
             currency: 'BTC'
-        }).format(inputValue / criptoDolarToday)
+        }).format(inputValue * criptoDolarToday)
 
         currencyValueConverted.innerHTML = new Intl.NumberFormat('en-US', {
             style:'currency',
@@ -144,7 +144,7 @@ function convertValue() {
         currencyValue.innerHTML = new Intl.NumberFormat('en-UK', {
             style:'currency',
             currency:'BTC'
-        }).format(inputValue / criptoDolarToday)
+        }).format(inputValue * criptoEuroToday)
         
         currencyValueConverted.innerHTML = new Intl.NumberFormat('en-Uk', {
             style:'currency',
@@ -187,7 +187,7 @@ function convertValue() {
         currencyValue.innerHTML = new Intl.NumberFormat('en-UK', {
             style:'currency',
             currency:'BTC'
-        }).format(inputValue / criptoDolarToday)
+        }).format(inputValue * criptoLibraToday)
 
         currencyValueConverted.innerHTML = new Intl.NumberFormat('en-UK', {
             style:'currency',
